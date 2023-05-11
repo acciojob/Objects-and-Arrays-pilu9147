@@ -1,14 +1,11 @@
-const players = ["John", "Bob", "Alice", "Poppy"];
+const players = ["John", "Bob", "Alice", ""];
 
 const person = {
   name: "John Doe",
   age: 80,
 };
- const team = [];
-    players.forEach(function (item) {
-        team.push(item);
-    });
-  let team1 = Array.from(players)
+ const team = players;
+const team1 = [...players]
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 const cap1 = {
   name: "John Doe",
